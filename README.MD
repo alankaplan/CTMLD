@@ -4,6 +4,10 @@ See the following paper for more information on the methodology [1]: http://dx.d
 
 LLNL-CODE-848447
 
+Requirements
+----------------
+Aside from standard Python packages, this software requires `numpy` (https://pypi.org/project/numpy/) and `bayesian-optimization` (https://pypi.org/project/bayesian-optimization/). This code was tested on Python 3.11.3, numpy=1.25.0 and bayesian-optimization=1.4.3.
+
 Data Format
 ----------------
 Data should be formatted as a text file and readable by numpy.loadtxt. The first row contains the time intervals, the second row contains the first measure, and the third row contains the second measure.
